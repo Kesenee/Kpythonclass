@@ -3,7 +3,7 @@ h2 = ['Dr. Strange', 'Cpt. America', 'Black Panther', 'Ant Man']
 
 heroes.insert(0, h2[0])
 print(heroes.index('Thor'))
-heroes.insert(heroes.index('thor'), h2[1])
+heroes.insert(heroes.index('Thor'), h2[1])
 print(heroes)
 heroes.remove('Superman')
 heroes.append('Ant Man')
@@ -20,3 +20,4 @@ print(copyheroes)
 copyheroes[0] = 'Hanuman'
 print(heroes)
 print(copyheroes)
+

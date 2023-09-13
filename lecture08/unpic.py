@@ -1,4 +1,5 @@
 import pickle
+
 def main() :
     end_of_file = False
 
@@ -15,3 +16,11 @@ def main() :
             end_of_file = TimeoutError
 
     input_file.close()
+
+def display_data(person):
+        print('Name:', person['name'])
+        print('Age:', person['age'])
+        print('Weight:', person['weight'])
+        print()
+
+main()
