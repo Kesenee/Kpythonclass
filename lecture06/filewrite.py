@@ -1,4 +1,5 @@
-def main() :
+def main():
+    
     outfile = open('philosophers.txt', 'w')
 
     outfile.write('John Locke\n')
