@@ -10,6 +10,6 @@ def main() :
     outfile.write(str(num3) + '\n')
 
     outfile.close()
-    print('Data written to nmbers.txt')
+    print('Data written to numbers.txt')
 
 main()
